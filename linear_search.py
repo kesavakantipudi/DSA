@@ -9,5 +9,5 @@ def linear_search(nums, key): # function initialization
 numbers = list(map(int, input("Enter the list of values: ").split())) # seeking input from the user and make it as a list
 key_value = int(input("Enter the key value to find: ")) # seeking the input from user, value to find in the list
 result = linear_search(numbers,key_value) # calling the linear_search function
-print(f"Value found at index position -> {result}" if result >= 0 else "Value not found!") # validating the output from the function that itis found or not
+print(f"✅ Value found at index position -> {result}" if result >= 0 else "❎ Value not found!") # validating the output from the function that itis found or not
 
